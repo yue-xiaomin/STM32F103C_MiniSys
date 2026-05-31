@@ -23,17 +23,17 @@
   extern "C" {
 #endif
 
-extern float qfp_fadd(float x,float y);
-extern float qfp_fsub(float x,float y);
-extern float qfp_fmul(float x,float y);
-extern float qfp_fdiv(float x,float y);
-extern float qfp_fsqrt(float x);
-extern float qfp_fexp(float x);
-extern float qfp_fln(float x);
-extern float qfp_fsin(float x);
-extern float qfp_fcos(float x);
-extern float qfp_ftan(float x);
-extern float qfp_fatan2(float y,float x);
+extern float qfp_fadd(float x, float y);    // 单精度加法：x + y
+extern float qfp_fsub(float x, float y);    // 单精度减法：x - y
+extern float qfp_fmul(float x, float y);    // 单精度乘法：x * y
+extern float qfp_fdiv(float x, float y);    // 单精度除法：x / y
+extern float qfp_fsqrt(float x);            // 单精度平方根：√x
+extern float qfp_fexp(float x);             // 单精度指数：e^x
+extern float qfp_fln(float x);              // 单精度自然对数：ln(x) (x>0)
+extern float qfp_fsin(float x);             // 单精度正弦：sin(x) (x 弧度)
+extern float qfp_fcos(float x);             // 单精度余弦：cos(x) (x 弧度)
+extern float qfp_ftan(float x);             // 单精度正切：tan(x) (x 弧度)
+extern float qfp_fatan2(float y, float x);  // 单精度反正切：atan2(y, x)，返回 (-π, π] 弧度
 
 #ifdef __cplusplus
   } // extern "C"

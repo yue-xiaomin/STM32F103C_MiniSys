@@ -85,14 +85,14 @@ int main(void)
     
     
     a = 1.1;
-    b = 1.2;
+    b = 0.6;
     c = 3.1415926;
     sinA = qfp_fsin(a);
     cosB = qfp_fcos(b);
     tanC = qfp_ftan(c);
-    printf("sinA:%0.3f", sinA);
-    printf("cosB:%0.3f", cosB);
-    printf("tanC:%0.3f", tanC);
+    printf("sinA:%0.3f\r\n", sinA);
+    printf("cosB:%0.3f\r\n", cosB);
+    printf("tanC:%0.3f\r\n", tanC);
 	while(1)
 	{
         dwt_start_timer();

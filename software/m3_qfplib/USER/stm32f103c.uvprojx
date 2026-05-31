@@ -371,7 +371,7 @@
             <ScatterFile></ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
-            <Misc>../qfplib/qfplib-m3_gcc.a</Misc>
+            <Misc>../qfplib/qfplib-m3.a</Misc>
             <LinkerInputFile></LinkerInputFile>
             <DisabledWarnings></DisabledWarnings>
           </LDads>

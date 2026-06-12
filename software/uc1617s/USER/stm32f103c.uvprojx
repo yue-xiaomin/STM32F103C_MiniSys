@@ -10,7 +10,7 @@
       <TargetName>STM32F103Cx</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USMART;..\SOFTWARE\led;..\SOFTWARE\elog;..\SOFTWARE\eeprom;..\SOFTWARE\rtc;..\SOFTWARE\dwt_timer</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\STM32F10x_FWLib\inc;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USMART;..\SOFTWARE\led;..\SOFTWARE\elog;..\SOFTWARE\eeprom;..\SOFTWARE\rtc;..\SOFTWARE\dwt_timer;..\SOFTWARE\lcd12896;..\SOFTWARE\uc1617s</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -600,6 +600,46 @@
               <FileName>dwt_timer.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SOFTWARE\dwt_timer\dwt_timer.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>UC1617S</GroupName>
+          <Files>
+            <File>
+              <FileName>uc1617s_conf.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\uc1617s_conf.h</FilePath>
+            </File>
+            <File>
+              <FileName>sw_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\sw_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>hw_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\hw_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>uc1617s_bus_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\uc1617s_bus_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>uc1617s_bus_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\uc1617s_bus_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>uc1617s_lcd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\uc1617s_lcd.c</FilePath>
+            </File>
+            <File>
+              <FileName>uc1617s_font.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SOFTWARE\uc1617s\uc1617s_font.c</FilePath>
             </File>
           </Files>
         </Group>
